@@ -1,0 +1,365 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*background body*/
+body {
+  background-image: url(assets/bg.png);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*ini bagian home page*/
+a {
+  text-decoration: none;
+  color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.btn-teacher {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.btn-teacher:hover {
+  background-color: blue;
+  color: black;
+}
+
+.welcome p {
+  padding: 30px 0 20px;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 2px 2px 5px lightgray;
+  color: bisque;
+}
+
+.form {
+  font-family: "roboto", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: white;
+  opacity: 99%;
+  max-width: 350px;
+  margin: auto;
+  padding: 20px 45px 30px 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+}
+
+.form h2 {
+  margin: 10px 5px 20px;
+  color: lightslategrey;
+}
+
+.form p {
+  font-size: 13px;
+  padding: 20px 0 0;
+  text-align: center;
+}
+
+.form input {
+  outline: 0;
+  border-radius: 10px;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 20px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+.form input:hover {
+  background-color: rgb(225, 250, 255);
+  transition: all 1s ease 0s;
+}
+
+.form input:focus {
+  background-color: rgb(225, 250, 255);
+  transition: all 1s ease 0s;
+}
+
+.form button {
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background: grey;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form button:hover,
+.form button:active,
+.form button:focus {
+  background-color: cornflowerblue;
+  transition: all 1s ease 0s;
+}
+
+.teks p {
+  text-align: center;
+  color: bisque;
+  margin: 100px 0 0;
+}
+/*akhir home page*/
+
+/*bagian teacher login*/
+.btn-student {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  border-radius: 5px;
+  background-color: cornflowerblue;
+}
+
+.btn-student:hover {
+  background-color: blue;
+  color: black;
+}
+/*akhir teacher login*/
+
+/*mapel*/
+.logo-profile {
+  margin: 10px 10px 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.nav {
+  background-color: gray;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 2%;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li {
+  padding: 10px 30px;
+  position: relative;
+}
+
+.nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 0.3s;
+}
+
+.nav ul li a:hover {
+  color: black;
+}
+
+.dropdown {
+  display: none;
+}
+
+.nav ul li:hover .dropdown {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: gray;
+}
+
+.nav ul li:hover .dropdown ul {
+  display: block;
+  margin: 10px;
+}
+
+.nav ul li:hover .dropdown ul li {
+  width: 150px;
+  padding: 5px;
+}
+
+.fas {
+  float: right;
+  margin-left: 10px;
+  padding-top: 3px;
+}
+
+.background {
+  background-image: url(assets/gradient.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  font-family: poppins;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+.pic {
+  width: 600px;
+  height: 290px;
+  position: relative;
+  object-fit: cover;
+}
+
+.card {
+  height: 500px;
+  width: 600px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 10px 20px #787878;
+}
+
+.info {
+  padding: 20px 0;
+  background: rgb(255, 255, 255);
+  height: 207px;
+  border-radius: 0px 10px;
+}
+
+.teks-1 {
+  text-align: center;
+  font-size: 21px;
+  color: black;
+}
+
+.teks-2 {
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+.teks-3 {
+  margin: 10px 20px;
+  padding: 10px 0;
+}
+
+.tombol {
+  margin: 11px 0;
+  text-align: center;
+}
+
+.forum {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  transition: 0.3s all;
+  background: none;
+  outline: none;
+}
+
+.forum:hover {
+  color: blue;
+}
+
+/*akhir mapel*/
+
+/*grade*/
+
+.nilai {
+  display: flex;
+  height: 350px;
+  width: 700px;
+  margin-top: 100px;
+  margin-left: 400px;
+  border-radius: 10px;
+}
+
+/*akhir grade*/
+
+/*Dashboard*/
+
+.pict1 {
+  width: 272px;
+  height: 130px;
+  position: relative;
+  object-fit: cover;
+}
+
+
+.deskripsi {
+  padding: 10px 0;
+  background: white;
+  /* border-radius: 0px 10px; */
+}
+
+.teks-4 {
+  text-align: center;
+  font-size: 18px;
+  color: black;
+}
+
+.teks-5 {
+  margin: 5px 5px;
+  padding: 10px 0;
+}
+
+.card2 {
+  height: 100px;
+  width: 272px;
+  margin: 10px;
+  margin-top: 130px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 10px 20px #787878;
+}
+
+.tombol1 {
+  margin: 5px 0;
+  text-align: center;
+}
+
+#progress {
+  background: #333;
+  border-radius: 13px;
+  height: 25px;
+  width: 200px;
+  padding: 3px;
+  margin: 5px 0;
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+
+#progress:after {
+  content: "50% ";
+  display: block;
+  background: skyblue;
+  width: 50%;
+  height: 100%;
+  border-radius: 9px;
+}
