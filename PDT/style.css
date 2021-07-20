@@ -363,3 +363,157 @@ header {
   height: 100%;
   border-radius: 9px;
 }
+
+/* Komentar */
+
+.box{
+  margin-left:1000px;
+} 
+
+ 
+ h1{
+  font: 20px Verdana;
+  color: white;
+  margin-left:1000px;
+ }
+ 
+ .Input{
+  font: 20px Arial;
+  border: 1px solid orange;
+  width: 300px;
+ }
+ 
+ .Submit{
+  font: 20px Arial;
+  border: 1px solid orange;
+  width: 300px;
+ }
+
+ .b {
+  font: 10px Arial;
+  background-color:white;
+  color : black;
+ }
+
+ /* forum */
+
+ .text1{
+   font-size: 20;
+   font-weight: bold;
+   margin-left: 65px;
+ }
+
+ .text3{
+  font-size: 29;
+  font-weight: bold;;
+  align-content: center;
+  margin-left: 10%;
+}
+
+/* .forum {
+  height: 40px;
+  width: 100px;
+  font-size: 17px;
+  transition: 0.3s all;
+  background: none;
+  outline: none;
+} */
+
+.button1{
+  font-size: 20;
+  font-weight: bold;;
+  align-content: center;
+  margin-left: 5%;
+  transition: 0.3s all;
+  outline: none;
+  background: none;
+} 
+
+ .card3 {
+  height: 180px;
+  width: 860px;
+  margin: 10px;
+  margin-left:320px; 
+  margin-top: 10px;
+  align-content: center;
+  position: fixed;
+  border: 2 px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 10px 20px #787878;
+}
+
+.card4 {
+  height: 480px;
+  width: 860px;
+  margin: 10px;
+  margin-left:320px; 
+  margin-top: 220px;
+  align-content: center;
+  position: fixed;
+  border: 2 px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 10px 20px #787878;
+}
+
+.pictguru {
+  width: 120px;
+  height: 120px;
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 60px;
+  position: relative;
+  object-fit: cover;
+}
+
+.desc {
+  height: 180px;
+  width: 630px;
+  margin: 10px;
+  margin-left:230px; 
+  margin-top: -163px;
+  align-content: center;
+  position: fixed;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  /* box-shadow: 5px 10px 20px #787878; */
+}
+
+.akun {
+  width: 80px;
+  height: 80px;
+  margin-top: 40px;
+  margin-bottom:10px;
+  margin-left: 30px;
+  position: relative;
+  object-fit: cover;
+}
+
+.koment {
+  height: 100px;
+  width: 650px;
+  margin: 10px;
+  margin-left:10%; 
+  margin-top: -100px;
+  position: fixed;
+  border-radius: 10px;
+  background-color: #D5D3D3;
+  /* box-shadow: 5px 10px 20px #787878; */
+}
+
+.nama{
+  margin-left: 20px;
+  margin-top: 20;
+  font-weight: bold;
+  font-size: 20px;
+  color: blue;
+
+}
+.isi{
+  margin-left: 20px;
+  margin-top: 20;
+  font-weight: bold;
+  font-size: 20px;
+
+}
