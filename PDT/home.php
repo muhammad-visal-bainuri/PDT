@@ -8,13 +8,27 @@
 </head>
 <body>
     <header>
-        <img src="/assets/logo.png" class="logo">
+        <img src="assets/logo.png" class="logo">
         <a href="teacherpage.html" class="btn-teacher">Login as Teacher</a>
     </header>
 
     <div class="welcome">
         <p>Hi, Learner!</p>
     </div>
+
+    <?php 
+            if(isset($_GET['pesan'])){
+                if($_GET['pesan'] == "gagal"){
+                    echo "Login gagal! username dan password salah!";
+                }
+                else if($_GET['pesan'] == "logout"){
+                    echo "Anda telah berhasil logout";
+                }
+                else if($_GET['pesan'] == "belum_login"){
+                    echo "Anda harus login untuk mengakses halaman admin";
+                }
+            }
+        ?>
 
     <div class="form">
     <h2>Login Here</h2>
