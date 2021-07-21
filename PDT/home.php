@@ -18,10 +18,11 @@
 
     <div class="form">
     <h2>Login Here</h2>
-    <form>
+    <form method="POST" action="login.php">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="password" placeholder="Password">
-        <button><a href="dashboard.html">Login</a></button>
+        <input type="submit" value="LOGIN">
+        <!-- <button><a href="dashboard.html">Login</a></button> -->
     </form>
     </div>
 
